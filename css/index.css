@@ -1,0 +1,108 @@
+body{
+	width:100%;
+	height:100%;
+	font-family: Lato, sans-serif;
+}
+
+h1 {
+  font-family: Lato;
+  font-weight: 700;
+  margin-top: 3em;
+  text-transform: uppercase;
+  color: red;
+
+}
+
+blockquote {
+  border-left-color: red;
+}
+
+h2 {
+	color: red;
+	letter-spacing:1px;
+	margin:35px 0 35px 0;
+	text-transform: uppercase;
+}
+
+a{
+	color:#26a5d3;
+}
+
+a:hover{
+	color: #44484f;
+  	font-weight: bold;
+	text-decoration:none;
+}
+
+footer {
+  margin-top: 4em;
+}
+figcaption{
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px #888888;
+}
+
+.description{
+  border: 1px solid;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin:2em auto;
+  padding: 2em;
+}
+
+.pic {
+	margin:2em auto;
+}
+
+.picture {
+  width: 500px;
+  height: 300px;
+  margin: 10px 0;
+  box-shadow: 8px 8px 4px #888888;
+}
+
+.social {
+  color: #000;  
+}
+
+.social:hover {
+   transform: scale(1.1);
+}
+
+ .social {
+     transform: scale(0.8);  
+     transition-duration: 0.5s;
+ }
+
+
+.btn:hover {
+  font-weight: bold;
+}
+
+.sub{
+	font-weight: 300;
+	font-size: 16px;	
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gh:hover {
+     color: #000;
+ }
+
